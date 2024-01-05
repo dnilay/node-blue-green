@@ -9,7 +9,7 @@
                 "-c"
             ],
             "essential": true,
-            "image": "<IMAGE1>",
+            "image": "030295495401.dkr.ecr.us-east-1.amazonaws.com/aws-pipeline-with-ecs-blue-green-deployment-image:latest",
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
